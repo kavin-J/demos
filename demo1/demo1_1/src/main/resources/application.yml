@@ -12,3 +12,8 @@ terminal:
   list[0]: 0
   list[1]: 1
   list[2]: 2
+  #[]即是key
+  cmdMap[1]: 1
+  cmdMap[2]: 2
+  cmdMap[3]: 3
+  cmdMap[4]: 4

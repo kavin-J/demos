@@ -17,6 +17,7 @@ public class TestProp {
     private boolean isSuccess;
     private List<String> list;
     private Map<String,String> latestVersionMap;
+    private Map<String,String> cmdMap;
 
     public String getName() {
         return name;
@@ -56,5 +57,13 @@ public class TestProp {
 
     public void setLatestVersionMap(Map<String, String> latestVersionMap) {
         this.latestVersionMap = latestVersionMap;
+    }
+
+    public Map<String, String> getCmdMap() {
+        return cmdMap;
+    }
+
+    public void setCmdMap(Map<String, String> cmdMap) {
+        this.cmdMap = cmdMap;
     }
 }

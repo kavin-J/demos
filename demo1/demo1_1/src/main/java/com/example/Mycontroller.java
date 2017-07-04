@@ -19,6 +19,7 @@ public class Mycontroller {
     @GetMapping("test")
     public String getMap() {
         Map map = testProp.getLatestVersionMap();
+        Map cmdMap = testProp.getCmdMap();
         Object rr = map.get("12345");
         Assert.isTrue("".equals(null));
         return "1234";
